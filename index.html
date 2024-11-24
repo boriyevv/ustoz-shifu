@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hosting company || @AzizbekDulobov</title>
+    <title>Expor / Import Companies</title>
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
@@ -12,7 +12,7 @@
 <body>
     <header class="navbar">
         <div class="container">
-            <h2 class="navbar-logo">Hosting Company Landing</h2>
+            <h2 class="navbar-logo">Logo</h2>
             <nav class="navbar-list">
                 <p class="navbar__list__item">Contact</p>
                 <p class="navbar__list__item">Pricing</p>
@@ -24,10 +24,18 @@
                 <p class="navbar__list__item">Landing</p>
                 <i class="fa-solid fa-cart-shopping"></i>
             </nav>
+
+            <button class="open">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <button class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
         </div>
     </header>
     <section class="hero">
-        <div class="container">
+        <div class="container hero-wrap">
             <div class="hero-info">
                 <h1 class="hero-info__title">Premium Hosting Services</h1>
                 <p class="hero-info__subtitle">
@@ -40,36 +48,34 @@
             </div>
             <img src="./assets/imgs/hero.png" class="hero-img" alt="hero" />
             <div class="hero-host">
+
+                
                 <div class="hero-host__item">
                     <h1>
-                        <span>.</span>
-                        <h2>com</h2>
+                        <h2>Apple</h2>
                     </h1>
-                    <p>$8.99/yr</p>
+                    <p>USA (Exporter)</p>
                 </div>
 
                 <div class="hero-host__item">
                     <h1>
-                        <span>.</span>
-                        <h2>net</h2>
+                        <h2>Samsung </h2>
                     </h1>
-                    <p>$8.99/yr</p>
+                    <p>Korea (Exporter)</p>
                 </div>
 
                 <div class="hero-host__item">
                     <h1>
-                        <span>.</span>
-                        <h2>org</h2>
+                        <h2>Walmart </h2>
                     </h1>
-                    <p>$8.99/yr</p>
+                    <p>USA (Importer)</p>
                 </div>
 
                 <div class="hero-host__item">
                     <h1>
-                        <span>.</span>
-                        <h2>gov</h2>
+                        <h2>Amazon </h2>
                     </h1>
-                    <p>$8.99/yr</p>
+                    <p>USA (Importer)</p>
                 </div>
             </div>
         </div>
@@ -84,8 +90,9 @@
                 </h1>
                 <button class="services-btn">ALL SERVICES</button>
             </div>
+            
             <div class="services-card">
-                <img src="./assets/imgs/services-1.png" class="services-info__img" alt="services-1" />
+                <h1 class="company-logo">APPLE</h1>
                 <div class="services-card__info">
                     <h2 class="services-card__title">Safe & Secure</h2>
                     <p class="services-card__subtitle">
@@ -99,7 +106,8 @@
                 </div>
             </div>
             <div class="services-card">
-                <img src="./assets/imgs/services-2.png" class="services-info__img" alt="services-1" />
+                <h1 class="company-logo">SAMSUNG</h1>
+                
                 <div class="services-card__info">
                     <h2 class="services-card__title">Safe & Secure</h2>
                     <p class="services-card__subtitle">
@@ -113,7 +121,7 @@
                 </div>
             </div>
             <div class="services-card">
-                <img src="./assets/imgs/services-3.png" class="services-info__img" alt="services-1" />
+                <h1 class="company-logo walmart">WALMART</h1>
                 <div class="services-card__info">
                     <h2 class="services-card__title">Safe & Secure</h2>
                     <p class="services-card__subtitle">
@@ -127,7 +135,7 @@
                 </div>
             </div>
             <div class="services-card">
-                <img src="./assets/imgs/services-4.png" class="services-info__img" alt="services-1" />
+                <h1 class="company-logo">AMAZON</h1>
                 <div class="services-card__info">
                     <h2 class="services-card__title">Safe & Secure</h2>
                     <p class="services-card__subtitle">
@@ -205,90 +213,74 @@
     </div>
     <section class="pricing">
         <div class="container">
-            <h4 class="pricing-text">Pricing</h4>
-            <h1 class="pricing-title">Web Hosting Plans & Pricing</h1>
+            <h4 class="pricing-text">Exporters</h4>
+            <h1 class="pricing-title">Top 3 Exporter Companies</h1>
             <div class="pricing-list">
                 <div class="pricing-item">
                     <h2 class="pricing-item__title" style="color: #ff8f00">
-                        Shared Hosting
+                       USA Company
                     </h2>
                     <div class="pricing-item__price">
-                        <span>$</span>
-                        <h1>3.99</h1>
-                        <p>/month</p>
+                        <h3>APPLE</h3>
+                        <p>Electronics</p>
                     </div>
                     <span class="pricing-item__line"></span>
                     <ul class="pricing-item__services">
-                        <li class="pricing-item__service">25000 visits per month</li>
-                        <li class="pricing-item__service">1 Site</li>
+                        <li class="pricing-item__service">Davlat: AQSh</li>
+                        <li class="pricing-item__service">Sohasi: Elektronika va texnologiya.</li>
 
-                        <li class="pricing-item__service">50GB Storage</li>
-                        <li class="pricing-item__service">256 GB Bandwidth/mo</li>
-                        <li class="pricing-item__service" style="color: #666">
-                            24/7 Support
-                        </li>
-                        <li class="pricing-item__service" style="color: #666">
-                            Unlimited Email Addresses
-                        </li>
+                        <li class="pricing-item__service">Asosiy mahsulotlar: iPhone, Mac, iPad, Apple Watch va boshqa texnikalar.</li>
+                        <li class="pricing-item__service">Izoh: Apple o'z mahsulotlari uchun komponentlarni dunyo bo'ylab yetkazib beruvchilardan import qiladi.</li>
+                     
                     </ul>
                     <button class="pricing-item__btn" style="background-color: #fff4e5; color: #ff8f00">
-                        GET STARTED
+                        Ko'proq . . .
                     </button>
                 </div>
 
                 <div class="pricing-item">
                     <h2 class="pricing-item__title" style="color: #2970fa">
-                        Shared Hosting
+                        South Korea
                     </h2>
                     <div class="pricing-item__price">
-                        <span>$</span>
-                        <h1>12.99</h1>
-                        <p>/month</p>
+                        <h3>SAMSUNG</h3>
+                        <p>Electronics</p>
                     </div>
                     <span class="pricing-item__line"></span>
                     <ul class="pricing-item__services">
-                        <li class="pricing-item__service">25000 visits per month</li>
-                        <li class="pricing-item__service">1 Site</li>
+                        <li class="pricing-item__service">Davlat: Janubiy Koreya</li>
+                        <li class="pricing-item__service">Sohasi: Elektronika va texnologiya.</li>
 
-                        <li class="pricing-item__service">50GB Storage</li>
-                        <li class="pricing-item__service">256 GB Bandwidth/mo</li>
-                        <li class="pricing-item__service" style="color: #666">
-                            24/7 Support
-                        </li>
-                        <li class="pricing-item__service" style="color: #666">
-                            Unlimited Email Addresses
-                        </li>
+                        <li class="pricing-item__service">Asosiy mahsulotlar: Smartfonlar, televizorlar, maishiy texnika va boshqa elektronika mahsulotlari.</li>
+                        <li class="pricing-item__service">Izoh: Samsung global miqyosda yetkazib beruvchilar bilan ishlaydi va ko'plab xomashyo va komponentlarni import qiladi.</li>
+
                     </ul>
                     <button class="pricing-item__btn" style="background-color: #2970fa; color: white">
-                        GET STARTED
+                        Ko'proq . . .
                     </button>
                 </div>
 
                 <div class="pricing-item">
                     <h2 class="pricing-item__title" style="color: #29cf8d">
-                        Shared Hosting
+                        Germany
                     </h2>
                     <div class="pricing-item__price">
-                        <span>$</span>
-                        <h1>29.99</h1>
-                        <p>/month</p>
+                        <h3>VolksWagen</h3>
+                        <p>Avto Sanoat</p>
                     </div>
                     <span class="pricing-item__line"></span>
                     <ul class="pricing-item__services">
-                        <li class="pricing-item__service">25000 visits per month</li>
-                        <li class="pricing-item__service">1 Site</li>
+                        <li class="pricing-item__service">Davlat: Germaniya</li>
+                        <li class="pricing-item__service">Sohasi: Avtomobil ishlab chiqarish.
+                        </li> 
+                         <li class="pricing-item__service">Asosiy mahsulotlar: Avtomobillar va avtomobil ehtiyot qismlari.
+                        </li>
 
-                        <li class="pricing-item__service">50GB Storage</li>
-                        <li class="pricing-item__service">256 GB Bandwidth/mo</li>
-                        <li class="pricing-item__service" style="color: #666">
-                            24/7 Support
-                        </li>
-                        <li class="pricing-item__service" style="color: #666">
-                            Unlimited Email Addresses
-                        </li>
+                        <li class="pricing-item__service">Izoh: Volkswagen Group ko'plab avtomobil brendlarini o'z ichiga oladi va avtomobil sanoatidagi komponentlarni global miqyosda import qiladi.</li>
+                        
                     </ul>
                     <button class="pricing-item__btn" style="background-color: #e9faf3; color: #29cf8d">
-                        GET STARTED
+                        Ko'proq . . .
                     </button>
                 </div>
             </div>
