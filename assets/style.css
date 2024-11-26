@@ -780,12 +780,15 @@ button {
 
 
 @media only screen and (max-width:400px){
+  body{
+    overflow-x: hidden;
+  }
   .navbar{
-    max-width: 400px;
+    width: 97.5%;
   }
   
   .container {
-    width: 390px;
+    width: 100%;
     margin: 0 auto;
   }
   .navbar-list{
@@ -799,9 +802,29 @@ button {
   }
 
   .hero-info{
-    width: 300px;
+    width: 100%;
     margin-left: 0;
   }
+
+  .hero-info__title{
+    font-size: 25px;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .hero-info__subtitle{
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-info__btn{
+     width: 100%;
+     margin:30px auto;
+  }
+  
 
   .hero-wrap{
     display: flex;
@@ -842,6 +865,10 @@ button {
     margin-top: 40px;
   }
 
+  .services-card:nth-child(4) {
+    margin-top: 0;
+  }
+
   .features-info{
     width: 350px;
   }
@@ -866,9 +893,7 @@ button {
     width: 350px;
   }
 
-  .walmart{
-    margin: 180px 0 40px 0;
-  }
+
 
   .pricing-list{
     display: flex;
@@ -898,10 +923,15 @@ button {
     object-fit: cover;
   }
 
+  .chat{
+    width: 100%;
+  }
+
   .chat-title{
     width: 370px;
     margin: 0 auto;
     text-align: center;
+    font-size: 25px;
   }
 
   .chat-subtitle{
@@ -940,6 +970,7 @@ button {
 
   .satisfaction-list{
     flex-direction: column;
+    align-items: center;
   }
 
   .satisfaction-item{
@@ -947,12 +978,12 @@ button {
   }
 
   .hosting{
-    width: 400px;
+    width: 100%;
     height: 900px;
   }
 
   .footer{
-    width: 400px;
+    width: 100%;
     padding: 50px;
   }
 }
