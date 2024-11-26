@@ -323,8 +323,9 @@ button {
 .features-item {
   width: 30%;
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  /* justify-content: space-between; */
+  gap: 50px;
+  align-items: center;
 }
 
 .features-item__img {
